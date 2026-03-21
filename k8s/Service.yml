@@ -4,7 +4,7 @@ metadata:
   name: warweb-service
 spec:
   selector:
-    app: w
+    app: web
   type: ClusterIP
   ports:
     - protocol: TCP
