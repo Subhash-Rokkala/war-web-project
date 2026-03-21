@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/war-web-project"
+        DOCKER_IMAGE = "subhashrokkala/war-web-project"
         DOCKER_TAG = "latest"
     }
     stages {
