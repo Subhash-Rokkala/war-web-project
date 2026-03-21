@@ -50,5 +50,7 @@ pipeline {
         stage('running conatiner'){
             steps{
                 sh 'docker run -itd --name warappcont -p 8091:8080 $DOCKER_IMAGE'
+            }
+        }
     }
 }
